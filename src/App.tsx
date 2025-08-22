@@ -147,7 +147,7 @@ function App() {
             <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
               Our mission is to help businesses reach their full potential through integrating 
               efficient digital systems within their operations and marketing departments 
-              to achieve limitless growth heading into the future of modern technology.
+              , achieving limitless growth heading into the future of modern technology.
             </p>
           </div>
         </div>
