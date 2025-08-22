@@ -140,7 +140,7 @@ function App() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-cyan-500 via-blue-500 to-cyan-600">
+      <section className="py-20 px-6 bg-gradient-to-r from-blue-500 to-cyan-400">
         <div className="container mx-auto">
           <div className="text-center max-w-4xl mx-auto animate-fade-in-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h2>
