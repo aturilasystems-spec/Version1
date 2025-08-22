@@ -331,7 +331,11 @@ function App() {
       <footer className="bg-cyan-900 py-8 px-6">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-xl font-bold mb-4 md:mb-0">Aturila Systems</div>
+            <img 
+              src="/Aturila_Systems_Ltd_Logo_copy-removebg-preview copy.png" 
+              alt="Aturila Systems" 
+              className="h-8 w-auto mb-4 md:mb-0"
+            />
             <div className="text-center md:text-right opacity-90">
               <p>&copy; 2025 Aturila Systems. All rights reserved.</p>
               <p className="text-sm mt-1">Empowering businesses through AI automation</p>
