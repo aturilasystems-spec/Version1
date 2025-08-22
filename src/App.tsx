@@ -105,7 +105,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-20 px-6">
+      <section id="home" className="min-h-screen flex items-center justify-center px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <div className="animate-fade-in-up">
