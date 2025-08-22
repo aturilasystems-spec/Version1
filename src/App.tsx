@@ -148,7 +148,7 @@ function App() {
       <section id="services" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our AI Solutions</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               We specialize in creating custom AI automation systems that revolutionize how businesses operate
             </p>
