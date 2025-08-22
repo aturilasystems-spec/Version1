@@ -139,6 +139,19 @@ function App() {
         </div>
       </section>
 
+      {/* Mission Section */}
+      <section className="py-20 px-6 bg-gradient-to-r from-blue-500 to-cyan-400">
+        <div className="container mx-auto">
+          <div className="text-center max-w-4xl mx-auto animate-fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h2>
+            <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
+              Our mission is to help businesses reach their full potential through integrating 
+              efficient digital systems within their operations and marketing departments.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto">
