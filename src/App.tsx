@@ -146,7 +146,7 @@ function App() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h2>
             <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
               Our mission is to help businesses reach their full potential through integrating 
-              efficient digital systems within their operations and marketing departments, achieving limitless growth heading into the future of modern technology.
+              efficient digital systems within their operations and marketing departments, achieving limitless growth whilst heading into the future of modern technology.
             </p>
           </div>
         </div>
