@@ -266,17 +266,44 @@ function App() {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">About Aturila Systems</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Why Choose Aturila Systems?</h2>
               <p className="text-xl mb-8 opacity-90 leading-relaxed">
-                We are a forward-thinking AI automation agency dedicated to transforming how businesses operate. 
-                Our expertise lies in creating intelligent systems that streamline processes, reduce costs, 
-                and unlock new opportunities for growth.
+                With over a decade of experience in AI and automation, we're your trusted partner 
+                for digital transformation. Our team of experts delivers cutting-edge solutions 
+                that drive real results.
               </p>
-              <p className="text-lg mb-8 opacity-90 leading-relaxed">
-                From small startups to enterprise corporations, we've helped hundreds of businesses embrace 
-                the power of artificial intelligence. Our solutions are designed to be scalable, reliable, 
-                and tailored to your specific industry needs.
-              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-cyan-400 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Users size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">Expert Team</h3>
+                    <p className="opacity-90">Industry-leading AI specialists and automation engineers</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="bg-blue-400 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Target size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">Proven Results</h3>
+                    <p className="opacity-90">98% client satisfaction with measurable ROI improvements</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="bg-cyan-300 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Zap size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
+                    <p className="opacity-90">Round-the-clock monitoring and support for all our solutions</p>
+                  </div>
+                </div>
+              </div>
             </div>
             
             <div className="relative">
