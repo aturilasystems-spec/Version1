@@ -210,57 +210,6 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-6 bg-gradient-to-l from-cyan-600 to-blue-500">
-        <div className="container mx-auto">
-          {/* Mission Statement */}
-          <div className="text-center max-w-3xl mx-auto animate-fade-in-up mb-12">
-            <p className="text-lg md:text-xl opacity-80 leading-relaxed italic">
-              Our mission is to help businesses reach their full potential through integrating 
-              efficient digital systems within their operations and marketing departments, achieving limitless growth whilst heading into the future of modern technology.
-            </p>
-          </div>
-
-          <div className="text-center mb-12 animate-fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
-            <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              We specialize in creating custom AI automation systems that revolutionize how businesses operate
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-              <div className="bg-cyan-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Bot size={32} className="text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Process Automation</h3>
-              <p className="opacity-90 leading-relaxed">
-                Automate repetitive tasks and workflows with intelligent AI systems that learn and adapt to your business needs.
-              </p>
-            </div>
-
-            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-              <div className="bg-blue-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Target size={32} className="text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Custom Website Designs</h3>
-              <p className="opacity-90 leading-relaxed">
-                Create stunning, responsive websites tailored to your brand with modern design principles and seamless user experiences.
-              </p>
-            </div>
-
-            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-              <div className="bg-cyan-300 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Zap size={32} className="text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Enhanced Marketing Solutions</h3>
-              <p className="opacity-90 leading-relaxed">
-                Automate your outreach to leads using AI for automatic personalized emails that convert prospects into customers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Section */}
       <section id="about" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto">
@@ -316,6 +265,58 @@ function App() {
                 <div className="text-2xl font-bold">500+</div>
                 <div className="text-sm opacity-90">Projects Completed</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="py-20 px-6 bg-gradient-to-l from-cyan-600 to-blue-500">
+        <div className="container mx-auto">
+          {/* Mission Statement */}
+          <div className="text-center max-w-3xl mx-auto animate-fade-in-up mb-12">
+            <p className="text-lg md:text-xl opacity-80 leading-relaxed italic">
+              Our mission is to help businesses reach their full potential through integrating 
+              efficient digital systems within their operations and marketing departments, achieving limitless growth whilst heading into the future of modern technology.
+            </p>
+          </div>
+
+          <div className="text-center mb-12 animate-fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+            <p className="text-xl opacity-90 max-w-3xl mx-auto">
+              We specialize in creating custom AI automation systems that revolutionize how businesses operate
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+              <div className="bg-cyan-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Bot size={32} className="text-white" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4">Process Automation</h3>
+              <p className="opacity-90 leading-relaxed">
+                Automate repetitive tasks and workflows with intelligent AI systems that learn and adapt to your business needs.
+              </p>
+            </div>
+
+            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+              <div className="bg-blue-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Target size={32} className="text-white" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4">Custom Website Designs</h3>
+              <p className="opacity-90 leading-relaxed">
+                Create stunning, responsive websites tailored to your brand with modern design principles and seamless user experiences.
+              </p>
+            </div>
+
+            <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+              <div className="bg-cyan-300 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Zap size={32} className="text-white" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4">Enhanced Marketing Solutions</h3>
+              <p className="opacity-90 leading-relaxed">
+                Automate your outreach to leads using AI for automatic personalized emails that convert prospects into customers.
+              </p>
             </div>
           </div>
         </div>
