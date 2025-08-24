@@ -262,7 +262,7 @@ function App() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6 bg-gradient-to-l from-cyan-600 to-blue-500">
+      <section id="about" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
