@@ -139,8 +139,78 @@ function App() {
         </div>
       </section>
 
+      {/* About Our Industry Section */}
+      <section className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
+        <div className="container mx-auto">
+          <div className="text-center mb-12 animate-fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">About Our Industry</h2>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="animate-fade-in-up">
+                <h3 className="text-2xl md:text-3xl font-bold mb-6 text-cyan-200">The Future is Automated</h3>
+                <p className="text-lg mb-6 opacity-90 leading-relaxed">
+                  Artificial Intelligence and automation are revolutionizing how businesses operate across every industry. 
+                  What once required hours of manual work can now be completed in minutes with intelligent systems that 
+                  learn, adapt, and improve over time.
+                </p>
+                <p className="text-lg mb-6 opacity-90 leading-relaxed">
+                  From processing invoices and managing customer inquiries to analyzing market trends and scheduling appointments, 
+                  AI-powered automation handles repetitive tasks with unprecedented accuracy and speed. This transformation 
+                  allows human workers to focus on creative problem-solving, strategic thinking, and building meaningful 
+                  relationships with customers.
+                </p>
+              </div>
+              
+              <div className="relative">
+                <img 
+                  src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  alt="AI Automation Technology"
+                  className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+
+            <div className="mt-16 grid md:grid-cols-3 gap-8">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
+                <h4 className="text-xl font-bold mb-4 text-cyan-200">Efficiency Revolution</h4>
+                <p className="opacity-90 leading-relaxed">
+                  Tasks that traditionally took days can now be completed in hours. AI systems work continuously 
+                  without breaks, ensuring consistent productivity around the clock.
+                </p>
+              </div>
+              
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
+                <h4 className="text-xl font-bold mb-4 text-cyan-200">Error Reduction</h4>
+                <p className="opacity-90 leading-relaxed">
+                  Automated systems eliminate human error in repetitive tasks, ensuring consistent quality 
+                  and accuracy in data processing, calculations, and routine operations.
+                </p>
+              </div>
+              
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
+                <h4 className="text-xl font-bold mb-4 text-cyan-200">Scalable Growth</h4>
+                <p className="opacity-90 leading-relaxed">
+                  As your business grows, automated systems scale effortlessly. Handle increased workloads 
+                  without proportionally increasing staff, making growth more sustainable and profitable.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-12 text-center animate-fade-in-up">
+              <p className="text-lg opacity-90 leading-relaxed max-w-3xl mx-auto">
+                The businesses that embrace AI automation today will be the leaders of tomorrow. By integrating 
+                intelligent systems into your operations, you're not just improving efficiency – you're future-proofing 
+                your organization for the digital age ahead.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
-      <section id="services" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
+      <section id="services" className="py-20 px-6 bg-gradient-to-l from-cyan-600 to-blue-500">
         <div className="container mx-auto">
           {/* Mission Statement */}
           <div className="text-center max-w-3xl mx-auto animate-fade-in-up mb-12">
