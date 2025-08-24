@@ -142,16 +142,15 @@ function App() {
       {/* Services Section */}
       <section id="services" className="py-20 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto">
-          {/* Mission Content */}
-          <div className="text-center max-w-4xl mx-auto animate-fade-in-up mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h2>
-            <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
+          {/* Mission Statement */}
+          <div className="text-center max-w-3xl mx-auto animate-fade-in-up mb-12">
+            <p className="text-lg md:text-xl opacity-80 leading-relaxed italic">
               Our mission is to help businesses reach their full potential through integrating 
               efficient digital systems within their operations and marketing departments, achieving limitless growth whilst heading into the future of modern technology.
             </p>
           </div>
 
-          <div className="text-center mb-16 animate-fade-in-up">
+          <div className="text-center mb-12 animate-fade-in-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
               We specialize in creating custom AI automation systems that revolutionize how businesses operate
