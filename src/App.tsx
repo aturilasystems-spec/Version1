@@ -171,21 +171,21 @@ function App() {
 
             <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
               <div className="bg-blue-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Zap size={32} className="text-white" />
+                <Target size={32} className="text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Smart Analytics</h3>
+              <h3 className="text-2xl font-bold mb-4">Custom Website Designs</h3>
               <p className="opacity-90 leading-relaxed">
-                Transform raw data into actionable insights with AI-powered analytics that predict trends and optimize performance.
+                Create stunning, responsive websites tailored to your brand with modern design principles and seamless user experiences.
               </p>
             </div>
 
             <div className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
               <div className="bg-cyan-300 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Target size={32} className="text-white" />
+                <Zap size={32} className="text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Custom AI Solutions</h3>
+              <h3 className="text-2xl font-bold mb-4">Enhanced Marketing Solutions</h3>
               <p className="opacity-90 leading-relaxed">
-                Tailored AI implementations designed specifically for your industry and business requirements.
+                Automate your outreach to leads using AI for automatic personalized emails that convert prospects into customers.
               </p>
             </div>
           </div>
