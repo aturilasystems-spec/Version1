@@ -215,7 +215,7 @@ function App() {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Why Choose Aturila Systems?</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Why Choose Us?</h2>
               <p className="text-xl mb-8 opacity-90 leading-relaxed">
                 With over a decade of experience in AI and automation, we're your trusted partner 
                 for digital transformation. Our team of experts delivers cutting-edge solutions 
