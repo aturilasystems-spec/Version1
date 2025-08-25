@@ -60,7 +60,7 @@ function HomePage() {
                 onClick={() => scrollToSection('about')}
                 className="hover:text-cyan-300 transition-colors duration-200"
               >
-                About
+                Pricing
               </button>
               <button 
                 onClick={() => navigateToPage('/contact')}
@@ -99,7 +99,7 @@ function HomePage() {
                   onClick={() => scrollToSection('about')}
                   className="text-left hover:text-cyan-300 transition-colors duration-200"
                 >
-                  About
+                  Pricing
                 </button>
                 <button 
                   onClick={() => navigateToPage('/contact')}
