@@ -9,6 +9,11 @@ function HomePage() {
   const [scrollY, setScrollY] = useState(0);
   const navigate = useNavigate();
 
+  const navigateToPage = (path: string) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
@@ -46,7 +51,7 @@ function HomePage() {
                 Home
               </button>
               <button 
-                onClick={() => navigate('/services')}
+                onClick={() => navigateToPage('/services')}
                 className="hover:text-cyan-300 transition-colors duration-200"
               >
                 Services
@@ -58,7 +63,7 @@ function HomePage() {
                 About
               </button>
               <button 
-                onClick={() => navigate('/contact')}
+                onClick={() => navigateToPage('/contact')}
                 className="bg-white text-cyan-600 px-6 py-2 rounded-full hover:bg-cyan-100 transition-all duration-200 transform hover:scale-105"
               >
                 Contact Us
@@ -85,7 +90,7 @@ function HomePage() {
                   Home
                 </button>
                 <button 
-                  onClick={() => navigate('/services')}
+                  onClick={() => navigateToPage('/services')}
                   className="text-left hover:text-cyan-300 transition-colors duration-200"
                 >
                   Services
@@ -97,7 +102,7 @@ function HomePage() {
                   About
                 </button>
                 <button 
-                  onClick={() => navigate('/contact')}
+                  onClick={() => navigateToPage('/contact')}
                   className="bg-white text-cyan-600 px-6 py-2 rounded-full w-fit hover:bg-cyan-100 transition-all duration-200"
                 >
                   Contact Us
@@ -125,7 +130,7 @@ function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <button 
-                  onClick={() => navigate('/contact')}
+                  onClick={() => navigateToPage('/contact')}
                   className="bg-white text-cyan-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-cyan-100 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group"
                 >
                   Get Started Today
