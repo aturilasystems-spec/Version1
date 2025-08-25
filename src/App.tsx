@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Menu, X, ArrowRight, Bot, Zap, Target, Users, Mail, Phone, MapPin, ChevronDown } from 'lucide-react';
 import ContactForm from './ContactForm';
+import ServicesPage from './ServicesPage';
 
 function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ function HomePage() {
                 Home
               </button>
               <button 
-                onClick={() => scrollToSection('services')}
+                onClick={() => navigate('/services')}
                 className="hover:text-cyan-300 transition-colors duration-200"
               >
                 Services
@@ -84,7 +85,7 @@ function HomePage() {
                   Home
                 </button>
                 <button 
-                  onClick={() => scrollToSection('services')}
+                  onClick={() => navigate('/services')}
                   className="text-left hover:text-cyan-300 transition-colors duration-200"
                 >
                   Services
@@ -459,6 +460,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/contact" element={<ContactForm />} />
+      <Route path="/services" element={<ServicesPage />} />
     </Routes>
   );
 }
