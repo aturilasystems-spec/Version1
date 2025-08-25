@@ -160,7 +160,7 @@ function HomePage() {
               <div className="animate-fade-in-up">
                 <h3 className="text-2xl md:text-3xl font-bold mb-6 text-cyan-200">The Future is Automated</h3>
                 <p className="text-lg mb-6 opacity-90 leading-relaxed">
-                  Artificial Intelligence and automation are revolutionizing how businesses operate across every industry. 
+                  Artificial Intelligence and its use in automation is revolutionizing how businesses operate across every industry. 
                   What once required hours of manual work can now be completed in minutes with intelligent systems that 
                   learn, adapt, and improve over time.
                 </p>
