@@ -121,7 +121,7 @@ function HomePage() {
               <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                 Automate Your
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 to-blue-200">
-                  Future with AI
+                  Business with AI
                 </span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
