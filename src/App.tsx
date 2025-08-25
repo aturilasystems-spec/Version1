@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Menu, X, ArrowRight, Bot, Zap, Target, Users, Mail, Phone, MapPin, ChevronDown } from 'lucide-react';
+import ContactForm from './ContactForm';
 
-function App() {
+function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -54,7 +57,7 @@ function App() {
                 About
               </button>
               <button 
-                onClick={() => scrollToSection('contact')}
+                onClick={() => navigate('/contact')}
                 className="bg-white text-cyan-600 px-6 py-2 rounded-full hover:bg-cyan-100 transition-all duration-200 transform hover:scale-105"
               >
                 Contact Us
@@ -93,7 +96,7 @@ function App() {
                   About
                 </button>
                 <button 
-                  onClick={() => scrollToSection('contact')}
+                  onClick={() => navigate('/contact')}
                   className="bg-white text-cyan-600 px-6 py-2 rounded-full w-fit hover:bg-cyan-100 transition-all duration-200"
                 >
                   Contact Us
@@ -121,7 +124,7 @@ function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <button 
-                  onClick={() => scrollToSection('contact')}
+                  onClick={() => navigate('/contact')}
                   className="bg-white text-cyan-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-cyan-100 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group"
                 >
                   Get Started Today
@@ -448,6 +451,15 @@ function App() {
         }
       `}</style>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/contact" element={<ContactForm />} />
+    </Routes>
   );
 }
 
