@@ -209,7 +209,7 @@ function HomePage() {
 
             <div className="mt-12 text-center animate-fade-in-up">
               <p className="text-lg opacity-90 leading-relaxed max-w-3xl mx-auto">
-                The businesses that embrace AI automation today will be the leaders of tomorrow. By integrating 
+                Businesses that embrace AI automation today will be the leaders of tomorrow. By integrating 
                 intelligent systems into your operations, you're not just improving efficiency – you're future-proofing 
                 your organization for the digital age ahead.
               </p>
