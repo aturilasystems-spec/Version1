@@ -86,7 +86,7 @@ function PricingPage() {
       </section>
 
       {/* Pricing Philosophy */}
-      <section className="py-12 px-6 bg-gradient-to-r from-blue-600 to-cyan-500">
+      <section className="py-12 px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Pricing Philosophy</h2>
