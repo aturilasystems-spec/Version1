@@ -3,6 +3,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Menu, X, ArrowRight, Bot, Zap, Target, Users, Mail, Phone, MapPin, ChevronDown } from 'lucide-react';
 import ContactForm from './ContactForm';
 import ServicesPage from './ServicesPage';
+import PricingPage from './PricingPage';
 
 function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +58,7 @@ function HomePage() {
                 Services
               </button>
               <button 
-                onClick={() => scrollToSection('about')}
+                onClick={() => navigateToPage('/pricing')}
                 className="hover:text-cyan-300 transition-colors duration-200"
               >
                 Pricing
@@ -96,7 +97,7 @@ function HomePage() {
                   Services
                 </button>
                 <button 
-                  onClick={() => scrollToSection('about')}
+                  onClick={() => navigateToPage('/pricing')}
                   className="text-left hover:text-cyan-300 transition-colors duration-200"
                 >
                   Pricing
@@ -466,6 +467,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/contact" element={<ContactForm />} />
       <Route path="/services" element={<ServicesPage />} />
+      <Route path="/pricing" element={<PricingPage />} />
     </Routes>
   );
 }
